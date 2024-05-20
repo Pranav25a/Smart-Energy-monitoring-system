@@ -1,0 +1,28 @@
+@import '../node_modules/antd/dist/reset.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .fetching {
+    animation: spin 1s linear infinite;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1677ff;
+    }
+
+    .ant-btn-default {
+        background-color: #f8f8f8;
+        }
+    
